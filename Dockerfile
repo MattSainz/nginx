@@ -1,3 +1,4 @@
 FROM nginx
-RUN rm /etc/nginx/sites-enabled/*
+
+RUN ls /etc/nginx/sites-enabled/
 ADD sites-enabled/ /etc/nginx/sites-enabled
